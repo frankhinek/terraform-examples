@@ -7,10 +7,10 @@ provider "azurerm" {
 }
 
 # Create a resource group
-resource "azurerm_resource_group" "dev" {
-  name     = "dev"
+resource "azurerm_resource_group" "demo-rg" {
+  name     = "demo-rg"
   location = "${var.azure_location}"
   tags {
-    Name = "dev"
+    Name = "demo"
   }
 }
