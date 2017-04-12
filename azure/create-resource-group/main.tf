@@ -10,4 +10,7 @@ provider "azurerm" {
 resource "azurerm_resource_group" "dev" {
   name     = "dev"
   location = "${var.azure_location}"
+  tags {
+    Name = "dev"
+  }
 }
