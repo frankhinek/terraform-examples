@@ -1,0 +1,9 @@
+# ARM API authentication and subscription details
+arm_subscription_id   = ""
+arm_client_id         = ""
+arm_client_secret     = ""
+arm_tenant_id         = ""
+
+# Obtain a full list of locations with az account list-locations
+# ex. eastus, westus, westeurope, japanwest
+azure_location        = ""
