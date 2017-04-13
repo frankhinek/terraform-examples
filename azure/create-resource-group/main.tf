@@ -11,6 +11,6 @@ resource "azurerm_resource_group" "demo-dev-rg" {
   name     = "demo-dev-rg"
   location = "${var.azure_location}"
   tags {
-    Name = "demo"
+    Name   = "demo"
   }
 }
