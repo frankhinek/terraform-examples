@@ -1,2 +1,6 @@
 # Do not track Terraform variable files
 terraform.tfvars
+
+# Do not track Terraform state files
+terraform.tfstate
+terraform.tfstate.backup
